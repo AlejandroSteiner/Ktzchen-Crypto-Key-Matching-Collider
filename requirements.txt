@@ -1,0 +1,5 @@
+bitcoinrpc
+ecdsa
+web3
+requests
+
