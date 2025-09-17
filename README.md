@@ -1,14 +1,14 @@
 # 🐾 Ktzchen - Crypto Key Matching Collider
 
-**Ktzchen** es una herramienta de investigación en criptografía y blockchain que permite:
-- 🔑 Generar direcciones públicas de **Bitcoin** y claves privadas de **Ethereum**.  
-- 🔗 Conectarse a nodos propios de **Bitcoin Core** y **Ethereum Geth**, o usar servicios externos como **Infura**.  
-- ⚡ Ejecutar procesos en paralelo (multi-core) para optimizar el rendimiento.  
-- 📊 Explorar la relación entre claves y direcciones, como parte de pruebas educativas y de seguridad.  
+**Ktzchen** It is a research tool in cryptography and blockchain that allows:
+- 🔑 Generate **Bitcoin** public addresses and **Ethereum** private keys.  
+- 🔗 Connect to your own **Bitcoin Core** and **Ethereum Geth** nodes, or use external services like **Ktzchen Web3**.  
+- ⚡ Run processes in parallel (multi-core) to optimize performance.  
+- 📊 Explore the relationship between keys and addresses, as part of educational and security testing.  
 
-⚠️ **Nota:** Este software es para **fines educativos e investigativos**. No debe utilizarse con fines ilícitos ni para comprometer fondos de terceros.  
+⚠️ **Note:** This software is for **educational and research pruposes**. It should not be used for illegal purposes or to compromise third-party funds.  
 
-## 🚀 Instalación
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/AlejandroSteiner/Ktzchen-Crypto-Key-Matching-Collider.git
