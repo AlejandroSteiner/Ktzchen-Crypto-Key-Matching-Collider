@@ -8,8 +8,8 @@ RPC_PORT = "PORT"
 RPC_URL = f'http://{RPC_USER}:{RPC_PASSWORD}@{RPC_HOST}:{RPC_PORT}'
 
 # Infura Configuration for Ethereum
-INFURA_URL = "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
-INFURA_API_KEY = "your_infura_api_key"
+INFURA_URL = "https://api.ktzchenweb3.io/v1/mainnet/YOUR_KTZCHEN_WEB3_API_KEY"
+INFURA_API_KEY = "your_ktzchen_web3_api_key"
 
 # Local Node Configuration
 ETHEREUM_LOCAL_URL = "http://"YOUR-URL"
