@@ -6,7 +6,65 @@
 - ⚡ Run processes in parallel (multi-core) to optimize performance.  
 - 📊 Explore the relationship between keys and addresses, as part of educational and security testing.  
 
-⚠️ **Note:** This software is for **educational and research pruposes**. It should not be used for illegal purposes or to compromise third-party funds.  
+⚠️ **Note:** This software is for **educational and research pruposes**. It should not be used for illegal purposes or to compromise third-party funds. 
+
+
+📝 Technical Description (English)
+
+Ktzchen - Crypto Key Matching Collider is a cryptographic research tool for exploring Bitcoin and Ethereum key spaces, with detailed matching and balance checking.
+
+The software works as follows:
+
+Generate Bitcoin addresses
+
+The program generates Bitcoin public addresses based on the configured parameters.
+
+Check Bitcoin balances
+
+For each generated or loaded Bitcoin address, it queries the node or API to check if the address has a balance.
+
+If the address has a positive balance, the software prints:
+
+The Bitcoin address
+
+The corresponding private key
+
+The balance
+
+Generate Ethereum private keys
+
+For each Bitcoin address (or for each batch), the software generates one or multiple Ethereum private keys.
+
+Check Ethereum balances
+
+Each generated Ethereum private key is converted into its corresponding public address.
+
+The software queries the Ethereum node or API to check if there is any balance.
+
+If a balance is found, it prints:
+
+The Ethereum address
+
+The private key
+
+The balance
+
+Modes of operation
+
+Own Nodes Mode: Directly queries your local Bitcoin Core node (RPC) and Ethereum Geth node (HTTP).
+
+File + API Key Mode: Uses a .txt file of Bitcoin addresses and an API key from a service like ktzchenweb3.io.
+
+Parallel execution (multi-core)
+
+The software can run multiple address/key checks in parallel to speed up the process.
+
+Logging and results
+
+All addresses with balances are printed in the console/log.
+
+The tool can be used to study key space, balance distribution, and potential overlaps for research purposes.
+ 
 
 ## 🚀 Installation
 
