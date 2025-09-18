@@ -9,7 +9,7 @@
 ⚠️ **Note:** This software is for **educational and research pruposes**. It should not be used for illegal purposes or to compromise third-party funds. 
 
 
-📝 Technical Description (English)
+📝 Technical Description 
 
 Ktzchen - Crypto Key Matching Collider is a cryptographic research tool for exploring Bitcoin and Ethereum key spaces, with detailed matching and balance checking.
 
