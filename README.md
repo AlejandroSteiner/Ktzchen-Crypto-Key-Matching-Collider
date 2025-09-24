@@ -148,3 +148,11 @@ Load the file and API key through the GUI, then run the process ✅.
    .Geth (if using own node mode)
 
 .Dependencies listed in requirements.txt
+
+-----------------------------------------------------------------------
+If this tool saved you time or helped in any way, consider making a donation to support the developer:
+
+ETH CONTRACT: 0xcfbc69ba9A5bb49B80546832a11AF856B7c515Cd
+
+
+
